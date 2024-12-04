@@ -1,0 +1,46 @@
+.form-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;  
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .error {
+    color: red;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+}
